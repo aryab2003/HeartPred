@@ -38,7 +38,7 @@ def main():
      
     cp=st.text_input('Chest Pain type')
      
-    trestbps=st.text_input('Resting blood pressure )
+    trestbps=st.text_input('Resting blood pressure' )
      
     chol=st.text_input('SerumCholesterol')
     fbs=st.text_input('Fasting blood sugar')
