@@ -17,11 +17,16 @@ def heart_prediction(loaded_model, input_data):
     input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
 
     prediction = loaded_model.predict(input_data_reshaped)
+    prediction = loaded_model.predict(input_data_reshaped)
     print(prediction)
 
     if prediction[0] == 0:
         return "Person does not have heart disease"
+    if prediction[0] == 0:
+        return "Person does not have heart disease"
     else:
+        return "Person has heart disease"
+
         return "Person has heart disease"
 
 
